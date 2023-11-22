@@ -1,15 +1,35 @@
 import Image, { StaticImageData } from "next/image";
 import styled from "styled-components";
+import useModal from "@/hooks/useModal";
+import { Modal } from "../common/Modal";
+import { HighlightModal } from "./HighlightModal";
 
 interface CoverProps {
   coverImg: StaticImageData;
+  data: {
+    name: string;
+    date: string;
+    description: string;
+  };
 }
 
 export const Cover = ({ ...props }: CoverProps) => {
+  const { open, PopUp, close } = useModal();
+
   return (
-    <CoverContainer>
-      <Image src={props.coverImg} width={212} alt="photo" />
-    </CoverContainer>
+    <>
+      <CoverContainer onClick={open}>
+        <Image src={props.coverImg} width={212} alt="photo" />
+      </CoverContainer>
+      <PopUp>
+        <Modal onClose={close}>
+          <HighlightModal
+            coverImg={props.coverImg}
+            data={props.data}
+          ></HighlightModal>
+        </Modal>
+      </PopUp>
+    </>
   );
 };
 
