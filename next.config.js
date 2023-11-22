@@ -2,8 +2,7 @@
 const nextConfig = {
   output: "export",
   images: {
-    loader: "akamai",
-    path: "/",
+    unoptimized: true,
   },
   reactStrictMode: true,
 };
