@@ -13,7 +13,7 @@ export default function Home() {
         <title>개발자 김정우 ^O^</title>
         <meta
           name="description"
-          content="개발자 김정우를 소개합니다 ٩(๑❛ᴗ❛๑)۶"
+          content="안녕하세요, 개발자 김정우를 소개합니다 ٩(๑❛ᴗ❛๑)۶"
         ></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
