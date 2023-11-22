@@ -18,8 +18,8 @@ const HeaderContainer = styled.div`
 
 const HeaderText = styled.div`
   font-family: "Happiness-Title";
-  font-size: 24px;
-  line-height: 56px;
+  font-size: 28px;
+  line-height: 64px;
   letter-spacing: -0.4px;
   color: #6e74ff;
 `;

@@ -10,7 +10,7 @@ export const Projects = () => {
         <Project
           name="프로젝트 이름"
           stack="JavaScript, React"
-          date="2023.01 ~ 2023.08"
+          date="2023.01 - 2023.08"
           description={["뫄뫄뫄마 했음", "상을 타였음"]}
           linkinfo={["배포 링크", "발표 자료"]}
           link={["link", "link"]}
@@ -18,7 +18,7 @@ export const Projects = () => {
         <Project
           name="프로젝트 이름"
           stack="JavaScript, React"
-          date="2023.01 ~ 2023.08"
+          date="2023.01 - 2023.08"
           description={["뫄뫄뫄마 했음", "상을 타였음"]}
           linkinfo={["배포 링크", "발표 자료"]}
           link={["link", "link"]}
@@ -26,7 +26,7 @@ export const Projects = () => {
         <Project
           name="프로젝트 이름"
           stack="JavaScript, React"
-          date="2023.01 ~ 2023.08"
+          date="2023.01 - 2023.08"
           description={["뫄뫄뫄마 했음", "상을 타였음"]}
           linkinfo={["배포 링크", "발표 자료"]}
           link={["link", "link"]}
@@ -45,6 +45,6 @@ const ProjectsContainer = styled.div`
 `;
 
 const Contents = styled.div`
-  margin-top: 40px;
+  margin-top: 60px;
   width: 650px;
 `;

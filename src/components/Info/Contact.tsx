@@ -87,6 +87,7 @@ const ContactLink = styled.div`
   }
   a {
     color: white;
+    transition: background-color 0.1s ease;
     &:hover {
       background-color: #8287ff;
     }
