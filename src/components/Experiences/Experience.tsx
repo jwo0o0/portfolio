@@ -5,10 +5,11 @@ interface ExperienceProps {
   name: string;
   date: string;
   children?: React.ReactNode;
+  last?: boolean;
 }
 export const Experience = ({ children, ...props }: ExperienceProps) => {
   return (
-    <ExperienceContainer>
+    <ExperienceContainer className={props.last ? "last" : ""}>
       <Header>
         <Name>{props.name}</Name>
         <Date>{props.date}</Date>
@@ -22,6 +23,9 @@ const ExperienceContainer = styled.div`
   width: 650px;
   margin: 16px 0;
   border-bottom: 1px solid ${COLORS.main};
+  &.last {
+    border: none;
+  }
 `;
 
 const Header = styled.div`
@@ -44,16 +48,5 @@ const Date = styled.div`
   font-family: "Pretendard";
   font-size: 12px;
   font-weight: 500;
-  color: ${COLORS.gray_800};
-`;
-
-const Description = styled.div`
-  width: 500px;
-  margin: 24px 0;
-  white-space: pre-line;
-  font-family: "Pretendard";
-  font-size: 13px;
-  line-height: 15px;
-  font-weight: 400;
   color: ${COLORS.gray_800};
 `;

@@ -30,7 +30,7 @@ export const Experiences = () => {
             우수활동자로 수료했습니다.
           </Description>
         </Experience>
-        <Experience name="SKT 데보션 영 2기" date="2023.03 - 2023.11">
+        <Experience name="SKT 데보션 영 2기" date="2023.03 - 2023.11" last>
           <Description>
             <span>뫄뫄마모마</span> 진행하였습니다.
             <br />
@@ -57,7 +57,6 @@ const ExperiencesContainer = styled.div`
 const Contents = styled.div`
   margin-top: 60px;
   width: 650px;
-  height: 600px;
 `;
 
 const Description = styled.div`
