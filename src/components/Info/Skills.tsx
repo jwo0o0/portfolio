@@ -33,12 +33,13 @@ export const Skills = () => {
             <div style={{ display: "flex" }}>
               <SkillTag skill="Next.js" type="second" />
               <SkillTag skill="Redux" type="second" />
+              <SkillTag skill="Node.js" type="second" />
               <SkillTag skill="AWS" type="second" />
-              <SkillTag skill="Java" type="second" />
             </div>
             <div style={{ display: "flex" }}>
               <SkillTag skill="C" type="second" />
               <SkillTag skill="Java" type="second" />
+              <SkillTag skill="Python" type="second" />
               <SkillTag skill="SpringBoot" type="second" />
               <SkillTag skill="MySQL" type="second" />
             </div>

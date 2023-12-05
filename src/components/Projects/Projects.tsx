@@ -8,9 +8,9 @@ export const Projects = () => {
       <Contents>
         <MediumHeader content="Projects" />
         <Project
-          name="프로젝트 이름"
-          stack="JavaScript, React"
-          date="2023.01 - 2023.08"
+          name="꿈틀"
+          stack="React, TypeScript, Recoil"
+          date="2023.07 - 2023.11"
           description={["뫄뫄뫄마 했음", "상을 타였음"]}
           linkinfo={["배포 링크", "발표 자료"]}
           link={["link", "link"]}
